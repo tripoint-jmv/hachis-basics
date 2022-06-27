@@ -36,7 +36,7 @@ export const emotes = (context, rightAnswer) => {
       y: -280,
       width: 470,
     })
-    .to(context.canvas, { backgroundColor: "#1A202C" })
+    .to(context.canvas, { backgroundColor: "white" })
     .to(
       context.canvas,
       (starImg.onload = function () {
